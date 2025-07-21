@@ -18,6 +18,7 @@ Please email: liz2018@med.cornell.edu for any questions or comments
 4. Run this code
 
 # Suggested data/code structure
+```
 --Code
 --Subj_dir
 ----Subj1
@@ -28,3 +29,4 @@ Please email: liz2018@med.cornell.edu for any questions or comments
         LV_CP_left.nii.gz
         LV_CP_Right.nii.gz
         T2FLAIR_brain.nii.gz
+```
