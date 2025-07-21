@@ -14,5 +14,17 @@ Please email: liz2018@med.cornell.edu for any questions or comments
 # Prepre your data to run this code.
 1. Coregister FLAIR and the mask of LV+CP from FreeSurfer into the same space (eg. FreeSurfer space)
 2. Make left and right LV+CP from FreeSurfer or other tools, since the segmentation will be done side by side
-3. Put all of LV+CP_left (LV_CP_left.nii.gz), LV+CP_right (LV_CP_left.nii.gz), and T2FLAIR (FLAIR_brain.nii.gz) images in the same folder for each subject
+3. Put all of LV+CP_left (LV_CP_left.nii.gz), LV+CP_right (LV_CP_left.nii.gz), and T2FLAIR (T2FLAIR_brain.nii.gz) images in the same folder for each subject
 4. Run this code
+
+# Suggested data/code structure
+--Code
+--Subj_dir
+----Subj1
+        LV_CP_left.nii.gz
+        LV_CP_Right.nii.gz
+        T2FLAIR_brain.nii.gz
+----Subj2
+        LV_CP_left.nii.gz
+        LV_CP_Right.nii.gz
+        T2FLAIR_brain.nii.gz
