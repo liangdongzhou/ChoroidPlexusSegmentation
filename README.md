@@ -1,4 +1,4 @@
-# Aim: This code help to do the automatic Choroid plexus segmentation using machine learning by fitting distribution of T2FLAIR image in gaussian mixture distribution
+# This code aims to do the automatic Choroid plexus segmentation using machine learning by fitting distribution of T2FLAIR image into gaussian mixture distribution
 
 Input data: This code can be applied to FLAIR (recommended) or T1w.
 
